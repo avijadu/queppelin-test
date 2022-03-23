@@ -1,0 +1,12 @@
+
+.sidemenu a{
+    color: #fff;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.sidemenu a:hover{
+    color: #8a0f53;
+}

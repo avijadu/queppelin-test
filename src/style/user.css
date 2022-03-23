@@ -1,0 +1,8 @@
+.user table{
+    width: 100%;
+    text-align: center;
+}
+.user tr:first-child{
+    background-color: rgb(224, 245, 38);
+    border: 1px solid red;
+}
