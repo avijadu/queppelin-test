@@ -13,7 +13,7 @@ function Login(props) {
 
     const history = useNavigate();
     const handleLogin = async () => {
-        let res = await axios.post("http://localhost:5000/login", {
+        let res = await axios.post("https://quepplin-app.herokuapp.com/login", {
             username: username,
             password: password
         })
